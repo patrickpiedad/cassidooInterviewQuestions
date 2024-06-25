@@ -60,13 +60,13 @@ function sortByVowelCountThenAlphabet(arr) {
 
 	// sort combinedPairs by number of vowels descending. If number of vowels are the same, nothing will happen and it will stay in alphabetical order
 	let combinedPairsSorted = combinedPairs.sort((a, b) => b.vowels - a.vowels)
+	console.log(combinedPairsSorted)
 
 	// take name from each object in combinedPairSorted, in order, and push to final answer array
 	let finalAnswer = []
-	for (let i = 0; i < Object.entries(combinedPairsSorted).length; i++) {
+	for (let i = 0; i < combinedPairsSorted.length; i++) {
 		finalAnswer.push(combinedPairsSorted[i].name)
 	}
-
 	return finalAnswer
 }
 
