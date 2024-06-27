@@ -25,5 +25,19 @@
 //SOLUTION
 
 function warmerTemperatures(temperatures){
-    
+    let ansArray = []
+    for (let i = 0; i < temperatures.length; i++){
+        for (let j = 0; j < temperatures.length; i++){
+            if (temperatures[i] > temperatures[j]){
+                break
+            }else if (temperatures[i] < temperatures[j]){
+                ansArray.push(j - i)
+            } else if (temperatures[i] > temperatures[j] && j-1 === temperatures.length){
+                ansArray.push(0)
+            }
+        }
+    }
+    return ansArray
 }
+
+console.log(warmerTemperatures([73, 74, 75, 71, 69, 72, 76, 73]))
