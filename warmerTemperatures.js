@@ -19,5 +19,11 @@
 // nested for loop in for loop, compare first element to next element, then next element, until the end
 // if first element is greater than next element, move on to next element
 // else if, first element is less than next element, take that index number, add one (to account for index starting at 0), and push into ansArray
+// else if, first element is greater than next element, and reaches end of that for loop iteration (which would be i-1 === array.length && first element
+// is greater than next element, push 0 into ans Array)
 
 //SOLUTION
+
+function warmerTemperatures(temperatures){
+    
+}
