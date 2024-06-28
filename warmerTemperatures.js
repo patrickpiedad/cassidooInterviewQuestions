@@ -1,4 +1,4 @@
-///////////////////////////////cassidoo Interview Question of the Week June 17th, 2024///////////////////////////////
+///////////////////////////////cassidoo Interview Question of the Week June 24th, 2024///////////////////////////////
 
 //TASK
 // Write a function that takes an array of daily temperatures and returns an array where each element is the number of days
